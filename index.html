@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menopause Symptom Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Menopause Symptom Checker</h1>
+
+    <label for="age">Select your age group:</label>
+    <select id="age">
+      <option value="under_40">Under 40</option>
+      <option value="40_45">40-45</option>
+      <option value="46_55">46-55</option>
+      <option value="over_55">Over 55</option>
+    </select>
+
+    <h3>Select your symptoms:</h3>
+    <form id="symptomForm">
+      <label><input type="checkbox" value="hot_flashes"> Hot flashes</label><br>
+      <label><input type="checkbox" value="night_sweats"> Night sweats</label><br>
+      <label><input type="checkbox" value="irregular_periods"> Irregular periods</label><br>
+      <label><input type="checkbox" value="mood_swings"> Mood swings</label><br>
+      <label><input type="checkbox" value="anxiety"> Anxiety</label><br>
+      <label><input type="checkbox" value="sleep_issues"> Sleep issues</label><br>
+      <label><input type="checkbox" value="vaginal_dryness"> Vaginal dryness</label><br>
+      <label><input type="checkbox" value="fatigue"> Fatigue</label><br>
+
+      <button type="button" onclick="checkSymptoms()">Check Result</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

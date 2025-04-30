@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    padding: 20px;
+  }
+  
+  .container {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    color: #c2185b;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #c2185b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4a148c;
+  }
+  
